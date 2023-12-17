@@ -1,5 +1,8 @@
 # 💫 About Me:
-- 👋 Hi, I’m @Amith-Abey-Stephen<br>- 👀 I’m interested in coding<br>- 🌱 I’m currently learning ...BCA<br>- 📫 Reach me at 91885550674(whatsapp)<br>
+- 👋 Hi, I’m @Amith-Abey-Stephen<br>
+- 👀 I’m interested in coding<br>
+- 🌱 I’m currently learning ...BCA<br>
+- 📫 Reach me at 91885550674(whatsapp)<br>
 
 
 ## 🌐 Socials:
