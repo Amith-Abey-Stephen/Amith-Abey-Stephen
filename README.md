@@ -1,6 +1,6 @@
 # 💫 About Me:
 - 👋 Hi, I’m Amith-Abey-Stephen<br>
-- 👀 I’m interested in coding<br>
+- 👀 IoT and Web Enthusiast<br>
 - 🌱 I’m currently learning ...BCA<br>
 - 📫 Reach me at 91885550674(whatsapp)<br>
 
