@@ -1,5 +1,5 @@
 ![MasterHead](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
-
+![retro-digital-art-illustration-person-using-radio-technology](https://github.com/Amith-Abey-Stephen/Studio/assets/145148320/f01492cf-28ba-4398-a88a-28db80f17d79)
 # 💫 About Me:
 - 👋 Hi, I’m Amith-Abey-Stephen<br>
 - 👀 IoT and Web Enthusiast<br>
