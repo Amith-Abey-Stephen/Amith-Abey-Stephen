@@ -1,7 +1,7 @@
 
 ![retro-digital-art-illustration-person-using-radio-technology](https://github.com/Amith-Abey-Stephen/Studio/assets/145148320/f01492cf-28ba-4398-a88a-28db80f17d79)
 
-<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/23489687-Illustration-animated-GIF">
+<img align="right" alt="Coding" width="400" src="[https://dribbble.com/shots/23489687-Illustration-animated-GI](https://dribbble.com/shots/23489687-Illustration-animated-GIF)">
 # 💫 About Me:
 - 👋 Hi, I’m Amith-Abey-Stephen<br>
 - 👀 IoT and Web Enthusiast<br>
