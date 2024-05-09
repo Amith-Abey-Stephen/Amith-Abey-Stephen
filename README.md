@@ -1,7 +1,7 @@
 
 ![retro-digital-art-illustration-person-using-radio-technology](https://github.com/Amith-Abey-Stephen/Studio/assets/145148320/f01492cf-28ba-4398-a88a-28db80f17d79)
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif">
+
 # 💫 About Me:
 - 👋 Hi, I’m Amith-Abey-Stephen<br>
 - 👀 IoT and Web Enthusiast<br>
@@ -19,6 +19,9 @@
 ![](https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Amith-Abey-Stephen&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif">
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
