@@ -48,9 +48,11 @@ The arcade (snake + pac-man) and metrics images live on generated branches
 
 ## 4 · Point the blog feed at yourself
 
-Edit `.github/workflows/blog-posts.yml` → `feed_list`. Any RSS works
-(Dev.to, Hashnode, Medium, Ghost, even YouTube). It's pre-filled with
-`https://blog.inovuslabs.org/rss/`.
+Already done: `feed_list` in `.github/workflows/blog-posts.yml` points at
+your **author-filtered** Ghost feed —
+`https://blog.inovuslabs.org/author/amith/rss/` — so only your posts show
+up, no Content API key required. Any other RSS (Dev.to, Hashnode, Medium,
+YouTube) can be added comma-separated.
 
 ## 5 · Fix the project links
 

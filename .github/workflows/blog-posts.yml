@@ -28,9 +28,9 @@ jobs:
       - name: Pull latest posts into README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # ⚠️ Replace with your personal feed(s), comma-separated.
-          # Inovus Labs blog is pre-filled since you write there.
-          feed_list: "https://blog.inovuslabs.org/rss/"
+          # Ghost serves a per-author feed natively — this one is filtered
+          # to Amith's posts. Add more feeds comma-separated if needed.
+          feed_list: "https://blog.inovuslabs.org/author/amith/rss/"
           max_post_count: 5
           # Brutalist list style: arrow, title, date — no fluff
           template: "→ [$title]($url) — <sub>$date</sub>$newline$newline"
