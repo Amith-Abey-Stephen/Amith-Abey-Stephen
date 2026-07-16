@@ -31,6 +31,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # lowlighter/metrics commits via the GitHub API, which 404s
+      # ("Not Found") if the target branch doesn't exist — so create
+      # an empty orphan `metrics` branch on the first ever run.
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure metrics branch exists
+        run: |
+          if ! git ls-remote --exit-code --heads origin metrics >/dev/null; then
+            git checkout --orphan metrics
+            git rm -rf --quiet . || true
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                commit --allow-empty -m "chore: init metrics branch"
+            git push origin metrics
+          else
+            echo "metrics branch already exists — nothing to do"
+          fi
+
       - name: Render metrics.svg (terminal template)
         uses: lowlighter/metrics@latest
         with:
