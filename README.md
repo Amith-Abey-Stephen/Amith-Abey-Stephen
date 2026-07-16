@@ -360,8 +360,16 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <h2 align="center">LATEST DROPS</h2>
 <p align="center"><sub><samp>AUTO-REFRESHED FROM RSS EVERY 6 HOURS · ZERO HANDS INVOLVED</samp></sub></p>
 
-<!-- BLOG-POST-LIST:START -->
-→ *The bot fills this in after the first `blog-posts` workflow run.*
+<!-- BLOG-POST-LIST:START -->→ [The Way We Discover Products is Changing](https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/) — <sub>Jul 11, 2026</sub>
+
+→ [How We Brought Automation Back to INOVUS — Building a Tony Stark Style Smart Room with ESP32 &amp; Alexa](https://blog.inovuslabs.org/inovus-automation/) — <sub>May 20, 2026</sub>
+
+→ [It Works on My Machine… But Not on Yours.” Isn’t Docker Supposed to Fix That?](https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/) — <sub>May 17, 2026</sub>
+
+→ [Finally, we’ve done it | Our own server](https://blog.inovuslabs.org/finally-weve-done-it-our-own-server/) — <sub>May 15, 2026</sub>
+
+→ [From Local Servers to Remote Access — Our Next Step](https://blog.inovuslabs.org/from-local-servers-to-remote-access-our-next-step/) — <sub>Apr 30, 2026</sub>
+
 <!-- BLOG-POST-LIST:END -->
 
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
