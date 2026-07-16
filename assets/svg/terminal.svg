@@ -79,20 +79,20 @@
 
   <!-- ══ $ projects (featured) ══ -->
   <text x="30" y="280" class="cmd" style="animation-delay:5.2s"><tspan class="ok">$ </tspan>projects --featured</text>
-  <text x="30" y="302" class="out" style="animation-delay:6.3s"><tspan class="dim">→ </tspan><tspan class="name">FIXMYSTORE-AI   </tspan><tspan class="dim">ai copilot that keeps shopify stores healthy</tspan></text>
-  <text x="30" y="324" class="out" style="animation-delay:6.5s"><tspan class="dim">→ </tspan><tspan class="name">EXPO-SHOP-MINI  </tspan><tspan class="dim">native mini-commerce, built with expo</tspan></text>
-  <text x="30" y="346" class="out" style="animation-delay:6.7s"><tspan class="dim">→ </tspan><tspan class="name">SYNCBATCH       </tspan><tspan class="dim">bulk product sync without the drama</tspan></text>
-  <text x="30" y="368" class="out" style="animation-delay:6.9s"><tspan class="dim">→ </tspan><tspan class="name">READRITE        </tspan><tspan class="dim">reading, tracked and supercharged</tspan></text>
+  <text x="30" y="302" class="out" style="animation-delay:6.3s"><tspan class="dim">→ </tspan><tspan class="name">SYNCBATCH       </tspan><tspan class="dim">bulk product sync without the drama</tspan></text>
+  <text x="30" y="324" class="out" style="animation-delay:6.5s"><tspan class="dim">→ </tspan><tspan class="name">DOCGEN          </tspan><tspan class="dim">codebase in, human-sounding docs out</tspan></text>
+  <text x="30" y="346" class="out" style="animation-delay:6.7s"><tspan class="dim">→ </tspan><tspan class="name">INOMAIL         </tspan><tspan class="dim">campus mail automation, zero copy-paste</tspan></text>
+  <text x="30" y="368" class="out" style="animation-delay:6.9s"><tspan class="dim">→ </tspan><tspan class="name">PROJECT-DORA    </tspan><tspan class="dim">ultrasonic radar that streamed to the web</tspan></text>
 
   <!-- ══ $ current_status ══ -->
   <text x="30" y="400" class="cmd" style="animation-delay:7.8s"><tspan class="ok">$ </tspan>current_status</text>
-  <text x="30" y="422" class="out" style="animation-delay:8.8s"><tspan class="key">BUILDING  </tspan>fixmystore ai  <tspan fill="#FFDE00">██████████</tspan><tspan class="dim">▒▒ 84%</tspan></text>
+  <text x="30" y="422" class="out" style="animation-delay:8.8s"><tspan class="key">BUILDING  </tspan>syncbatch      <tspan fill="#FFDE00">██████████</tspan><tspan class="dim">▒▒ 86%</tspan></text>
   <text x="30" y="444" class="out" style="animation-delay:9.0s"><tspan class="key">LEARNING  </tspan>rust · llm infrastructure · agents</text>
   <text x="30" y="466" class="out" style="animation-delay:9.2s"><tspan class="key">MOOD      </tspan><tspan class="ok">CAFFEINATED &amp; SHIPPING</tspan></text>
 
   <!-- ══ $ contact ══ -->
   <text x="30" y="498" class="cmd" style="animation-delay:10.0s"><tspan class="ok">$ </tspan>contact</text>
-  <text x="30" y="520" class="out" style="animation-delay:10.9s"><tspan class="key">MAIL      </tspan><tspan class="cyan">team@fixmystore.com</tspan></text>
+  <text x="30" y="520" class="out" style="animation-delay:10.9s"><tspan class="key">MAIL      </tspan><tspan class="cyan">amithabey13@gmail.com</tspan></text>
   <text x="30" y="542" class="out" style="animation-delay:11.1s"><tspan class="key">GITHUB    </tspan><tspan class="cyan">github.com/Amith-Abey-Stephen</tspan></text>
   <text x="30" y="564" class="out" style="animation-delay:11.3s"><tspan class="key">LINKEDIN  </tspan><tspan class="cyan">linkedin.com/in/amith-abey-stephen</tspan></text>
 

@@ -8,7 +8,7 @@
                   #00F0FF (cyan) #FF4911 (orange) + pure black/white
        · Square corners only. If it looks comfortable, sharpen it.
        · Dark/light handled via <picture> + prefers-color-scheme.
-       · Generated art (snake/pacman) lives on the `output` branch,
+       · Generated art (snake) lives on the `output` branch,
          metrics on the `metrics` branch — main stays clean.
        · First push: images from those branches 404 until the
          workflows run once. Run them from the Actions tab. See SETUP.md.
@@ -37,10 +37,10 @@
 
 <!-- ══ CONTACT STRIP ══ -->
 <p align="center">
-  <a href="mailto:team@fixmystore.com"><img src="https://img.shields.io/badge/EMAIL-FFDE00?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"></a>
+  <a href="mailto:amithabey13@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FFDE00?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"></a>
   <a href="https://www.linkedin.com/in/amith-abey-stephen"><img src="https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="https://blog.inovuslabs.org"><img src="https://img.shields.io/badge/BLOG-FF90E8?style=for-the-badge&logo=rss&logoColor=000000" alt="Blog"></a>
-  <a href="https://fixmystore.com"><img src="https://img.shields.io/badge/FIXMYSTORE.AI-ADFF2F?style=for-the-badge" alt="FixMyStore AI"></a>
+  <a href="https://blog.inovuslabs.org/author/amith/"><img src="https://img.shields.io/badge/BLOG-FF90E8?style=for-the-badge&logo=rss&logoColor=000000" alt="Blog"></a>
+  <a href="https://github.com/Amith-Abey-Stephen?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-ADFF2F?style=for-the-badge" alt="Projects"></a>
 </p>
 
 <!-- ══ MANIFESTO ══ -->
@@ -109,55 +109,25 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   <!-- ── FLAGSHIP ── -->
   <tr>
     <td colspan="2" width="100%">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/fixmystore-ai">FIXMYSTORE AI</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/FLAGSHIP-FFDE00?style=flat-square" alt="flagship"> <img src="https://img.shields.io/badge/SHIPPING-ADFF2F?style=flat-square" alt="shipping"></h3>
-      <samp>An AI copilot that keeps Shopify stores healthy — it audits the store, explains what's broken in plain language, and fixes it: SEO rot, dead links, speed sinks, conversion leaks.</samp>
+      <h3>⌗ <a href="https://syncbatch.inovuslabs.org">SYNCBATCH</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/FLAGSHIP-FFDE00?style=flat-square" alt="flagship"> <img src="https://img.shields.io/badge/LIVE-ADFF2F?style=flat-square" alt="live"></h3>
+      <samp>Bulk product-data sync engine for commerce catalogs — messy CSVs and feeds in, clean storefront-ready catalogs out, zero drama in between.</samp>
       <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓░░ 84%</code>&nbsp;&nbsp;<sub><samp>AGENTIC AI · SHOPIFY · NEXT.JS · NODE.JS</samp></sub>
+      <code>▓▓▓▓▓▓▓▓▓▓░░ 86%</code>&nbsp;&nbsp;<sub><samp>NODE.JS · POSTGRESQL · QUEUES · SHOPIFY</samp></sub>
     </td>
   </tr>
   <!-- ── ROW 2 ── -->
   <tr>
     <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/expo-shop-mini">EXPO SHOP MINI</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/BETA-00F0FF?style=flat-square" alt="beta"></h3>
-      <samp>Native mini-commerce built with Expo and the Shop Minis SDK — proving a store can live inside your thumb.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓░░░░ 70%</code>&nbsp;&nbsp;<sub><samp>EXPO · REACT NATIVE · SHOPIFY</samp></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/readrite">READRITE</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/LIVE-FF90E8?style=flat-square" alt="live"></h3>
-      <samp>A reading companion that tracks what you read and turns it into notes you'll actually revisit.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓▓░ 90%</code>&nbsp;&nbsp;<sub><samp>REACT · MONGODB · EXPRESS</samp></sub>
-    </td>
-  </tr>
-  <!-- ── ROW 3 ── -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/syncbatch">SYNCBATCH</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/LIVE-FF90E8?style=flat-square" alt="live"></h3>
-      <samp>Bulk product-data sync engine. Messy CSVs in, clean catalogs out, zero drama in between.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓░░ 86%</code>&nbsp;&nbsp;<sub><samp>NODE.JS · POSTGRESQL · QUEUES</samp></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/docgen">DOCGEN</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/PROTOTYPE-FFDE00?style=flat-square" alt="prototype"></h3>
+      <h3>⌗ <a href="https://docgen.inovuslabs.org">DOCGEN</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/PROTOTYPE-FFDE00?style=flat-square" alt="prototype"></h3>
       <samp>Point it at a codebase, get docs that sound like a human wrote them. Runs on local LLMs.</samp>
       <br><br>
       <code>▓▓▓▓▓▓░░░░░░ 55%</code>&nbsp;&nbsp;<sub><samp>LOCAL LLMS · TYPESCRIPT · CLI</samp></sub>
     </td>
-  </tr>
-  <!-- ── ROW 4 ── -->
-  <tr>
     <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/inomail">INOMAIL</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/LIVE-FF90E8?style=flat-square" alt="live"></h3>
+      <h3>⌗ <a href="https://inomail.inovuslabs.org">INOMAIL</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/LIVE-FF90E8?style=flat-square" alt="live"></h3>
       <samp>Campus mail automation built at Inovus Labs — templates, scheduling, zero copy-paste.</samp>
       <br><br>
       <code>▓▓▓▓▓▓▓▓▓▓▓▓ 100%</code>&nbsp;&nbsp;<sub><samp>PHP · MYSQL · SMTP</samp></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen?tab=repositories&q=ai">AI EXPERIMENTS</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/ALWAYS_ON-FF4911?style=flat-square" alt="always on"></h3>
-      <samp>The lab: agents, RAG pipelines, tiny fine-tunes, and inference rigs running on hardware I own.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓▓▓ ∞</code>&nbsp;&nbsp;<sub><samp>AGENTS · RAG · LOCAL INFERENCE</samp></sub>
     </td>
   </tr>
   <!-- ── ROW 5 · wide ── -->
@@ -283,11 +253,15 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
     <tr>
       <td align="right"><img src="https://img.shields.io/badge/FRONTEND-FFDE00?style=for-the-badge" alt="Frontend"></td>
       <td>
+        <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5">
+        <img src="https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS">
+        <img src="https://img.shields.io/badge/JAVASCRIPT-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+        <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
         <img src="https://img.shields.io/badge/REACT-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
         <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
         <img src="https://img.shields.io/badge/VUE-000000?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue">
-        <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
         <img src="https://img.shields.io/badge/TAILWIND-000000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS">
+        <img src="https://img.shields.io/badge/BOOTSTRAP-000000?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap">
       </td>
     </tr>
     <tr>
@@ -296,6 +270,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
         <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
         <img src="https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
         <img src="https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP">
+        <img src="https://img.shields.io/badge/NPM-000000?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm">
       </td>
     </tr>
     <tr>
@@ -314,6 +289,8 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
         <img src="https://img.shields.io/badge/GIT-000000?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
         <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
         <img src="https://img.shields.io/badge/FIGMA-000000?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma">
+        <img src="https://img.shields.io/badge/NOTION-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
+        <img src="https://img.shields.io/badge/GOOGLE_CLOUD-000000?style=for-the-badge&logo=googlecloud&logoColor=4285F4" alt="Google Cloud">
         <img src="https://img.shields.io/badge/VS_CODE-000000?style=for-the-badge" alt="VS Code">
       </td>
     </tr>
@@ -343,10 +320,10 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 | TRACK | WHY | STATUS |
 | :-- | :-- | :-- |
-| **LLM INFRASTRUCTURE** | Serving models on my own metal, properly | `▓▓▓▓▓▓░░░░ 60%` |
+| **SHOPIFY APP DEVELOPMENT** | Building where the merchants already are | `▓▓▓▓▓▓▓░░░ 70%` |
 | **AGENTIC SYSTEMS** | Software that does the work, not just the chat | `▓▓▓▓▓▓░░░░ 60%` |
-| **RUST** | For the tools that must never fall over | `▓▓▓░░░░░░░ 30%` |
-| **GO** | Small binaries, big backends | `▓▓░░░░░░░░ 20%` |
+| **PRODUCT ANALYTICS & GROWTH** | Knowing what users do, not what I hope they do | `▓▓▓▓░░░░░░ 40%` |
+| **CLOUD DEPLOYMENT & DEVOPS** | Ship it, scale it, sleep at night | `▓▓▓▓▓░░░░░ 50%` |
 
 </div>
 
@@ -403,11 +380,12 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 ```text
 [1] My first "deployment" was an ultrasonic radar beaming distances
     between two ESP boards. It worked. Nothing has felt as magical since.
-[2] I run LLMs at home. My electricity bill is a growth-stage startup.
-[3] I design the UI before the database schema. Fight me.
-[4] Every project here was named BEFORE a single line was written.
+[2] Every project here was named BEFORE a single line was written.
     Naming is the real MVP scope.
-[5] Kerala has the best coffee for debugging. This is not up for review.
+[3] My laptop holds more side projects than finished projects —
+    but every single one taught me something.
+[4] I've spent more time debugging than writing code. Worth it.
+[5] I enjoy building products from scratch more than following tutorials.
 ```
 
 </div>
@@ -415,7 +393,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     11 · THE ARCADE — generated daily by .github/workflows/arcade.yml
+     11 · THE ARCADE — snake generated daily by .github/workflows/arcade.yml
      Images 404 until that workflow runs once. Actions tab → arcade → Run.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
@@ -424,18 +402,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <h2 align="center">THE ARCADE</h2>
 <p align="center"><sub><samp>MY CONTRIBUTIONS, PLAYED DAILY · INSERT COIN</samp></sub></p>
 
-<!-- Pac-Man eats the contribution graph -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/pacman-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/pacman-contribution-graph-dark.svg" width="96%" alt="Pac-Man eating the contribution graph">
-  </picture>
-</div>
-
-<br>
-
-<!-- The snake gets whatever Pac-Man left behind -->
+<!-- The snake eats the contribution graph -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/github-snake-dark.svg">
@@ -453,13 +420,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 <p align="center">
   <samp>
-    <a href="mailto:team@fixmystore.com">EMAIL</a> ▪
+    <a href="mailto:amithabey13@gmail.com">EMAIL</a> ▪
     <a href="https://www.linkedin.com/in/amith-abey-stephen">LINKEDIN</a> ▪
-    <a href="https://blog.inovuslabs.org">BLOG</a> ▪
+    <a href="https://blog.inovuslabs.org/author/amith/">BLOG</a> ▪
     <a href="https://github.com/Amith-Abey-Stephen/Amith-Abey-Stephen">SOURCE OF THIS PAGE</a>
   </samp>
 </p>
 
 <p align="center"><sub><samp>IF THIS README MADE YOU LOOK TWICE, THE ⭐ BUTTON IS RIGHT THERE.</samp></sub></p>
 
-<!-- You read the source. Of course you did. Builders always check how it's made. Say hi: team@fixmystore.com -->
+<!-- You read the source. Of course you did. Builders always check how it's made. Say hi: amithabey13@gmail.com -->

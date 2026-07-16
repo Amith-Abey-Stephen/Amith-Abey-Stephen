@@ -27,7 +27,7 @@ git push -u origin main
 
 ## 2 · Enable and run the workflows once
 
-The arcade (snake + pac-man) and metrics images live on generated branches
+The arcade (snake) and metrics images live on generated branches
 (`output`, `metrics`) and will **404 until each workflow runs once**.
 
 1. Repo → **Actions** tab → enable workflows if prompted.
@@ -56,10 +56,9 @@ YouTube) can be added comma-separated.
 
 ## 5 · Fix the project links
 
-The bento cards in `README.md` link to guessed repo slugs
-(`fixmystore-ai`, `expo-shop-mini`, `readrite`, `syncbatch`, `docgen`,
-`inomail`, `Project-Dora`). Point each `<a href>` at the real repo or a
-live URL, and tune the one-liners/progress bars — they're plain text.
+The bento cards in `README.md` link to live inovuslabs.org URLs for
+SyncBatch / DocGen / InoMail and the `Project-Dora` repo. Tune the
+one-liners and progress bars any time — they're plain text.
 
 ## 6 · Optional: Spotify "ON ROTATION" card
 
@@ -102,7 +101,6 @@ uncomment the Holopin block and set your board URL (`holopin.me/<username>`).
 | Full metrics | `lowlighter/metrics` (terminal template) | maintained |
 | Trophies | `ryo-ma/github-profile-trophy` | maintained |
 | Snake | `Platane/snk` | maintained, v3 |
-| Pac-Man | `abozanona/pacman-contribution-graph` | maintained |
 | Blog RSS | `gautamkrishnar/blog-post-workflow` | stable, the standard |
 | Badges | `shields.io` | evergreen |
 
@@ -112,7 +110,7 @@ uncomment the Holopin block and set your board URL (`holopin.me/<username>`).
 README.md                     ← the landing page
 SETUP.md                      ← you are here
 .github/workflows/
-  arcade.yml                  ← snake + pac-man → `output` branch, daily
+  arcade.yml                  ← snake → `output` branch, daily
   metrics.yml                 ← metrics terminal card → `metrics` branch
   blog-posts.yml              ← RSS → README, every 6h
 assets/

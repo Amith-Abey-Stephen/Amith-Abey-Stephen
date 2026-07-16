@@ -25,6 +25,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # blog-post-workflow commits to README.md in the workspace —
+      # without a checkout there is no repo to commit to (git error 128)
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Pull latest posts into README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
