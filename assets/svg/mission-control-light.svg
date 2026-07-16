@@ -1,0 +1,134 @@
+<!--
+  ═══════════════════════════════════════════════════════════════════
+  MISSION CONTROL — LIGHT MODE — NEO-BRUTALISM
+  Twin of mission-control-dark.svg for white backgrounds:
+  white cards, black ink, black borders, black hard shadow.
+  See the dark variant for full commentary.
+  ═══════════════════════════════════════════════════════════════════
+-->
+<svg width="1096" height="436" viewBox="0 0 1096 436" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mission Control — live status dashboard">
+  <title>MISSION CONTROL</title>
+
+  <style>
+    .display { font-family: 'Arial Black', 'Archivo Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .tag     { font-size: 10px; font-weight: bold; letter-spacing: 1.5px; fill: #000000; }
+    .sub     { font-size: 12px; fill: #000000; opacity: 0.65; }
+
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.1; } }
+
+    .cursor { animation: cursor 1.1s step-end infinite; }
+    @keyframes cursor { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .seg { opacity: 0; animation: pop 0.2s steps(2, end) forwards; }
+    @keyframes pop { from { opacity: 0; } to { opacity: 1; } }
+
+    .seg-live { animation: simmer 1.4s step-end 3s infinite; }
+    @keyframes simmer { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.3; } }
+  </style>
+
+  <!-- Hard shadow + window -->
+  <rect x="12" y="12" width="1080" height="420" fill="#000000"/>
+  <rect x="2" y="2" width="1080" height="420" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+
+  <!-- Title bar -->
+  <rect x="2" y="2" width="1080" height="48" fill="#000000" stroke="#000000" stroke-width="3"/>
+  <rect x="22" y="19" width="14" height="14" fill="#FF4911" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="46" y="19" width="14" height="14" fill="#FFDE00" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="70" y="19" width="14" height="14" fill="#ADFF2F" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="542" y="32" text-anchor="middle" class="mono" font-size="13" font-weight="bold" letter-spacing="2" fill="#ffffff">MISSION CONTROL — LIVE TELEMETRY</text>
+  <rect x="988" y="20" width="12" height="12" fill="#FF4911" class="blink"/>
+  <text x="1008" y="31" class="mono" font-size="11" font-weight="bold" letter-spacing="2" fill="#FF4911">LIVE</text>
+
+  <!-- Card 1 · SYSTEM STATUS -->
+  <rect x="34" y="79" width="328" height="126" fill="#FFDE00"/>
+  <rect x="29" y="74" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="43" y="64" width="118" height="20" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+  <text x="102" y="78" text-anchor="middle" class="mono tag">SYS STATUS</text>
+  <rect x="49" y="126" width="14" height="14" fill="#00A83E"/>
+  <rect x="43" y="120" width="26" height="26" fill="none" stroke="#00A83E">
+    <animate attributeName="x"      values="49;39"   dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="y"      values="126;116" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="width"  values="14;34"   dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="height" values="14;34"   dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.9;0" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="80" y="141" class="display" font-size="22" fill="#00A83E">ONLINE</text>
+  <text x="49" y="178" class="mono sub">ALL SYSTEMS NOMINAL · ACCEPTING IDEAS</text>
+
+  <!-- Card 2 · CURRENT MISSION -->
+  <rect x="383" y="79" width="328" height="126" fill="#FF90E8"/>
+  <rect x="378" y="74" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="392" y="64" width="98" height="20" fill="#FF90E8" stroke="#000000" stroke-width="2"/>
+  <text x="441" y="78" text-anchor="middle" class="mono tag">MISSION</text>
+  <text x="398" y="132" class="display" font-size="19" fill="#000000">AI-POWERED</text>
+  <text x="398" y="156" class="display" font-size="19" fill="#000000">COMMERCE</text>
+  <text x="398" y="184" class="mono sub">FIXMYSTORE AI — SHIPPING WEEKLY</text>
+
+  <!-- Card 3 · BASE OF OPERATIONS -->
+  <rect x="732" y="79" width="328" height="126" fill="#00F0FF"/>
+  <rect x="727" y="74" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="741" y="64" width="78" height="20" fill="#00F0FF" stroke="#000000" stroke-width="2"/>
+  <text x="780" y="78" text-anchor="middle" class="mono tag">BASE</text>
+  <text x="747" y="141" class="display" font-size="22" fill="#000000">KERALA, INDIA</text>
+  <rect x="1006" y="120" width="12" height="12" fill="#0090A8"/>
+  <rect x="1000" y="114" width="24" height="24" fill="none" stroke="#0090A8">
+    <animate attributeName="x"      values="1006;996" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="y"      values="120;110"  dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="width"  values="12;32"    dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="height" values="12;32"    dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.9;0" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="747" y="178" class="mono sub">IST · UTC+05:30 · REMOTE FRIENDLY</text>
+
+  <!-- Card 4 · COFFEE RESERVES -->
+  <rect x="34" y="227" width="328" height="126" fill="#ADFF2F"/>
+  <rect x="29" y="222" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="43" y="212" width="98" height="20" fill="#ADFF2F" stroke="#000000" stroke-width="2"/>
+  <text x="92" y="226" text-anchor="middle" class="mono tag">COFFEE</text>
+  <g>
+    <rect class="seg" style="animation-delay:0.2s" x="49"  y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:0.4s" x="77"  y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:0.6s" x="105" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:0.8s" x="133" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:1.0s" x="161" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:1.2s" x="189" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg" style="animation-delay:1.4s" x="217" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect class="seg seg-live" style="animation-delay:1.6s" x="245" y="266" width="22" height="16" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <rect x="273" y="266" width="22" height="16" fill="none" stroke="#000000" stroke-width="1.5"/>
+    <rect x="301" y="266" width="22" height="16" fill="none" stroke="#000000" stroke-width="1.5"/>
+  </g>
+  <text x="49" y="322" class="mono sub">80% — REFILL SCHEDULED · PRIORITY HIGH</text>
+
+  <!-- Card 5 · ACTIVE FOCUS -->
+  <rect x="383" y="227" width="328" height="126" fill="#FF4911"/>
+  <rect x="378" y="222" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="392" y="212" width="88" height="20" fill="#FF4911" stroke="#000000" stroke-width="2"/>
+  <text x="436" y="226" text-anchor="middle" class="mono tag">FOCUS</text>
+  <g class="mono" font-size="11.5" font-weight="bold">
+    <rect x="398" y="252" width="102" height="26" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+    <text x="449" y="269" text-anchor="middle" fill="#000000">AGENTIC AI</text>
+    <rect x="510" y="252" width="118" height="26" fill="#FF90E8" stroke="#000000" stroke-width="2"/>
+    <text x="569" y="269" text-anchor="middle" fill="#000000">SHOPIFY APPS</text>
+    <rect x="398" y="288" width="102" height="26" fill="#ADFF2F" stroke="#000000" stroke-width="2"/>
+    <text x="449" y="305" text-anchor="middle" fill="#000000">LOCAL LLMS</text>
+    <rect x="510" y="288" width="118" height="26" fill="#00F0FF" stroke="#000000" stroke-width="2"/>
+    <text x="569" y="305" text-anchor="middle" fill="#000000">IOT HARDWARE</text>
+  </g>
+
+  <!-- Card 6 · CURRENT MOOD -->
+  <rect x="732" y="227" width="328" height="126" fill="#FFDE00"/>
+  <rect x="727" y="222" width="328" height="126" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <rect x="741" y="212" width="78" height="20" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+  <text x="780" y="226" text-anchor="middle" class="mono tag">MOOD</text>
+  <text x="747" y="296" class="display" font-size="30" fill="#000000">BUILDING.</text>
+  <rect x="922" y="270" width="14" height="28" fill="#FF90E8" class="cursor"/>
+  <text x="747" y="330" class="mono sub">FLOW STATE: ENGAGED · DO NOT DISTURB</text>
+
+  <!-- Status bar -->
+  <line x1="2" y1="374" x2="1082" y2="374" stroke="#000000" stroke-width="2.5"/>
+  <text x="34" y="404" class="mono" font-size="12" font-weight="bold" fill="#000000">CPU·IDEAS <tspan fill="#B8A200">▓▓▓▓▓▓▓░</tspan> 91%</text>
+  <text x="542" y="404" text-anchor="middle" class="mono" font-size="12" font-weight="bold" fill="#000000">MEM·SIDE-PROJECTS <tspan fill="#D6008F">▓▓▓▓░░░░</tspan> 47%</text>
+  <text x="1050" y="404" text-anchor="end" class="mono" font-size="12" font-weight="bold" fill="#000000">NET·SHIPPING <tspan fill="#00A83E">■</tspan> STEADY</text>
+</svg>

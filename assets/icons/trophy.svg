@@ -1,0 +1,11 @@
+<!-- ICON · TROPHY — achievements. Star pings above the cup. -->
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <rect x="1.5" y="1.5" width="25" height="25" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+  <path d="M9 7h10v5a5 5 0 0 1-10 0V7z" fill="#000000"/>
+  <path d="M9 8H6.5v2a3 3 0 0 0 2.8 3M19 8h2.5v2a3 3 0 0 1-2.8 3" fill="none" stroke="#000000" stroke-width="1.6"/>
+  <rect x="12.6" y="16.5" width="2.8" height="3" fill="#000000"/>
+  <rect x="10" y="19.5" width="8" height="2.6" fill="#000000"/>
+  <polygon points="21.5,4 22.3,5.7 24,6.5 22.3,7.3 21.5,9 20.7,7.3 19,6.5 20.7,5.7" fill="#ffffff" stroke="#000000" stroke-width="0.8">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite"/>
+  </polygon>
+</svg>

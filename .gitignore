@@ -1,0 +1,12 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local scratch — generated art lives on the `output`/`metrics` branches,
+# never committed to main
+dist/
+node_modules/

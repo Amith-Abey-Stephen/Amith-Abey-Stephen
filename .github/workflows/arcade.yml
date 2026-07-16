@@ -1,0 +1,62 @@
+# ═════════════════════════════════════════════════════════════════════
+# THE ARCADE — Snake + Pac-Man contribution games
+#
+# Generates BOTH arcade animations into ./dist and publishes them to the
+# `output` branch in a single push (two workflows fighting over one
+# branch is how you get force-push wars — one workflow avoids that).
+#
+# Consumed by README.md via:
+#   https://raw.githubusercontent.com/<user>/<user>/output/github-snake.svg
+#   https://raw.githubusercontent.com/<user>/<user>/output/github-snake-dark.svg
+#   https://raw.githubusercontent.com/<user>/<user>/output/pacman-contribution-graph.svg
+#   https://raw.githubusercontent.com/<user>/<user>/output/pacman-contribution-graph-dark.svg
+#
+# Actions used (both actively maintained as of 2026):
+#   · Platane/snk — the original snake, SVG-only fast variant
+#   · abozanona/pacman-contribution-graph — arcade Pac-Man
+#   · crazy-max/ghaction-github-pages — battle-tested branch publisher
+# ═════════════════════════════════════════════════════════════════════
+name: arcade
+
+on:
+  schedule:
+    # Once a day at 00:30 UTC (06:00 IST) — fresh contributions, fresh game
+    - cron: "30 0 * * *"
+  workflow_dispatch: {}      # manual "insert coin" button
+  push:
+    branches: [main]         # regenerate on profile updates too
+
+permissions:
+  contents: write            # needed to push the output branch
+
+jobs:
+  arcade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # ── Player 1: SNAKE ────────────────────────────────────────────
+      # Brutalist palette: acid-yellow contribution ramp, pink snake
+      # (dark) / black snake on yellow ramp (light).
+      - name: Generate snake game
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#000000&color_dots=#ebedf0,#fff3a3,#ffe95c,#ffde00,#d1b000
+            dist/github-snake-dark.svg?color_snake=#FF90E8&color_dots=#161b22,#4d4300,#8f7c00,#c4ab00,#ffde00
+
+      # ── Player 2: PAC-MAN ──────────────────────────────────────────
+      # Emits dist/pacman-contribution-graph.svg (+ -dark.svg)
+      - name: Generate pac-man game
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      # ── Publish both to the output branch ──────────────────────────
+      - name: Push arcade to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

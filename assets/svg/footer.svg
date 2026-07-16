@@ -1,0 +1,39 @@
+<!--
+  ═══════════════════════════════════════════════════════════════════
+  FOOTER — GIANT MARQUEE TAPE
+  Black tape + white display type + acid yellow rails.
+  Self-contained colors → one file works on both GitHub themes.
+  textLength locks each text copy to exactly 1100px so the scroll
+  loops with zero seams.
+  ═══════════════════════════════════════════════════════════════════
+-->
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Build things people actually use — Amith Abey Stephen, Kerala, India">
+  <title>BUILD THINGS PEOPLE ACTUALLY USE</title>
+
+  <defs>
+    <clipPath id="tape"><rect x="0" y="20" width="1200" height="56"/></clipPath>
+  </defs>
+
+  <style>
+    .display { font-family: 'Arial Black', 'Archivo Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; }
+    .mono    { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .blink   { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  </style>
+
+  <!-- Marquee tape with acid rails -->
+  <rect x="0" y="14" width="1200" height="4" fill="#FFDE00"/>
+  <rect x="0" y="20" width="1200" height="56" fill="#000000"/>
+  <g clip-path="url(#tape)">
+    <g>
+      <text x="0"    y="60" class="display" font-size="28" fill="#ffffff" textLength="1100" lengthAdjust="spacingAndGlyphs">BUILD THINGS PEOPLE ACTUALLY USE ★ SHIP LOUD ★ STAY CURIOUS ★ </text>
+      <text x="1100" y="60" class="display" font-size="28" fill="#ffffff" textLength="1100" lengthAdjust="spacingAndGlyphs">BUILD THINGS PEOPLE ACTUALLY USE ★ SHIP LOUD ★ STAY CURIOUS ★ </text>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1100 0" dur="18s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="0" y="78" width="1200" height="4" fill="#FFDE00"/>
+
+  <!-- Sign-off line (mid-gray reads on both themes) -->
+  <rect x="576" y="100" width="10" height="10" fill="#FF90E8" class="blink"/>
+  <text x="600" y="126" text-anchor="middle" class="mono" font-size="12" font-weight="bold" letter-spacing="2" fill="#888888">© AMITH ABEY STEPHEN · KERALA, INDIA · HANDMADE WITH MARKDOWN, SVG &amp; STUBBORNNESS</text>
+</svg>

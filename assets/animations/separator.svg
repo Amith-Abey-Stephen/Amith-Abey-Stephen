@@ -1,0 +1,21 @@
+<!--
+  ═══════════════════════════════════════════════════════════════════
+  SECTION SEPARATOR — HAZARD TAPE
+  A construction tape strip with stripes that crawl forever.
+  Black + acid yellow reads on both GitHub themes → one file only.
+  The stripe path repeats every 26px, and the loop shifts exactly
+  one period, so the animation is seamless.
+  ═══════════════════════════════════════════════════════════════════
+-->
+<svg width="1200" height="18" viewBox="0 0 1200 18" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <title>separator</title>
+  <defs>
+    <clipPath id="tape"><rect x="0" y="0" width="1200" height="18"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="1200" height="18" fill="#000000"/>
+  <g clip-path="url(#tape)">
+    <path fill="#FFDE00" d="M0 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z m26 0 h16 l-6 18 h-16 z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-26 0" dur="0.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

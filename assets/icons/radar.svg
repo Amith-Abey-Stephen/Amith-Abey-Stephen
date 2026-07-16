@@ -1,0 +1,12 @@
+<!-- ICON · RADAR — mission control. Acid sticker + rotating sweep. -->
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <rect x="1.5" y="1.5" width="25" height="25" fill="#FFDE00" stroke="#000000" stroke-width="2"/>
+  <circle cx="14" cy="14" r="8" fill="none" stroke="#000000" stroke-width="1.8"/>
+  <circle cx="14" cy="14" r="4" fill="none" stroke="#000000" stroke-width="1.2" opacity="0.5"/>
+  <line x1="14" y1="14" x2="14" y2="6.5" stroke="#000000" stroke-width="1.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 14 14" to="360 14 14" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="18.5" cy="10.5" r="1.6" fill="#000000">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" calcMode="discrete" repeatCount="indefinite"/>
+  </circle>
+</svg>

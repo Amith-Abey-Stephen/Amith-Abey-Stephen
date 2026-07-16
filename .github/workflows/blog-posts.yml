@@ -1,0 +1,39 @@
+# ═════════════════════════════════════════════════════════════════════
+# LATEST DROPS — auto-updating blog list via RSS
+#
+# gautamkrishnar/blog-post-workflow rewrites the section of README.md
+# between the BLOG-POST-LIST markers with the newest posts from the
+# feeds below, and commits the change. No tokens needed — the default
+# GITHUB_TOKEN can write to this repo.
+#
+# ✏️  EDIT feed_list below to point at YOUR feeds (Dev.to, Hashnode,
+#     Medium, Ghost, YouTube — anything with RSS works).
+# ═════════════════════════════════════════════════════════════════════
+name: blog-posts
+
+on:
+  schedule:
+    # Every 6 hours — fresh enough for a blog, cheap on Actions minutes
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Pull latest posts into README
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # ⚠️ Replace with your personal feed(s), comma-separated.
+          # Inovus Labs blog is pre-filled since you write there.
+          feed_list: "https://blog.inovuslabs.org/rss/"
+          max_post_count: 5
+          # Brutalist list style: arrow, title, date — no fluff
+          template: "→ [$title]($url) — <sub>$date</sub>$newline$newline"
+          date_format: "mmm dd, yyyy"
+          commit_message: "chore: refresh latest drops [skip ci]"
+          readme_path: ./README.md
