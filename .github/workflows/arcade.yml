@@ -20,7 +20,7 @@ on:
     - cron: "30 0 * * *"
   workflow_dispatch: {}      # manual "insert coin" button
   push:
-    branches: [main]         # regenerate on profile updates too
+    branches: [master]       # regenerate on profile updates too
 
 permissions:
   contents: write            # needed to push the output branch

@@ -17,9 +17,9 @@
 <!-- ══ HERO ══ -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/hero-light.svg">
-    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/hero-dark.svg" width="100%" alt="AMITH ABEY STEPHEN — Full-stack developer, product builder. Kerala, India.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-light.svg">
+    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-dark.svg" width="100%" alt="AMITH ABEY STEPHEN — Full-stack developer, product builder. Kerala, India.">
   </picture>
 </div>
 
@@ -60,47 +60,47 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      01 · MISSION CONTROL
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/radar.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/radar.svg" width="30" alt="">
 </div>
 <h2 align="center">MISSION CONTROL</h2>
 <p align="center"><sub><samp>LIVE TELEMETRY · REFRESHED WHENEVER I REMEMBER</samp></sub></p>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/mission-control-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/mission-control-light.svg">
-    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/mission-control-dark.svg" width="100%" alt="Mission control dashboard: status ONLINE, mission AI-powered commerce, base Kerala India, coffee 80%, focus on agentic AI / Shopify apps / local LLMs / IoT, mood: Building.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/mission-control-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/mission-control-light.svg">
+    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/mission-control-dark.svg" width="100%" alt="Mission control dashboard: status ONLINE, mission AI-powered commerce, base Kerala India, coffee 80%, focus on agentic AI / Shopify apps / local LLMs / IoT, mood: Building.">
   </picture>
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      02 · THE TERMINAL
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/terminal.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/terminal.svg" width="30" alt="">
 </div>
 <h2 align="center">THE TERMINAL</h2>
 <p align="center"><sub><samp>A FULL SESSION PLAYS ON LOAD · RELOAD THE PAGE TO REPLAY</samp></sub></p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/terminal.svg" width="88%" alt="Animated terminal running whoami, skills, projects, current_status and contact.">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/terminal.svg" width="88%" alt="Animated terminal running whoami, skills, projects, current_status and contact.">
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      03 · CURRENTLY BUILDING — the bento grid
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/bolt.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/bolt.svg" width="30" alt="">
 </div>
 <h2 align="center">CURRENTLY BUILDING</h2>
 <p align="center"><sub><samp>PRODUCTS FIRST · REPOS SECOND · EXCUSES NEVER</samp></sub></p>
@@ -141,7 +141,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      04 · GITHUB DASHBOARD
@@ -150,7 +150,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
      All themed to the brutalist palette, square corners forced.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/chart.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/chart.svg" width="30" alt="">
 </div>
 <h2 align="center">GITHUB DASHBOARD</h2>
 <p align="center"><sub><samp>NUMBERS DON'T LIE · THEY JUST FLUCTUATE</samp></sub></p>
@@ -195,13 +195,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/metrics/metrics.svg" width="96%" alt="Full metrics report (terminal style)">
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      05 · ACHIEVEMENTS
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/trophy.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/trophy.svg" width="30" alt="">
 </div>
 <h2 align="center">ACHIEVEMENTS</h2>
 <p align="center"><sub><samp>SHINY THINGS EARNED BY SHIPPING THINGS</samp></sub></p>
@@ -237,13 +237,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   </table>
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      06 · TECH STACK — consistent black badges, grouped, no icon soup
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/layers.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/layers.svg" width="30" alt="">
 </div>
 <h2 align="center">TECH STACK</h2>
 <p align="center"><sub><samp>TOOLS ARE BORING · WHAT YOU BUILD WITH THEM ISN'T</samp></sub></p>
@@ -305,13 +305,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   </table>
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      07 · LEARNING QUEUE
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/compass.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/compass.svg" width="30" alt="">
 </div>
 <h2 align="center">LEARNING QUEUE</h2>
 <p align="center"><sub><samp>CURRENT ROADMAP · LOADED, NOT FINISHED</samp></sub></p>
@@ -327,13 +327,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      08 · OPEN SOURCE
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/heart.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/heart.svg" width="30" alt="">
 </div>
 <h2 align="center">OPEN SOURCE</h2>
 <p align="center"><sub><samp>SOFTWARE IS A TEAM SPORT</samp></sub></p>
@@ -348,14 +348,14 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 </samp>
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      09 · LATEST DROPS — auto-updated by .github/workflows/blog-posts.yml
      Do not edit between the markers; the bot owns that block.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/rss.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/rss.svg" width="30" alt="">
 </div>
 <h2 align="center">LATEST DROPS</h2>
 <p align="center"><sub><samp>AUTO-REFRESHED FROM RSS EVERY 6 HOURS · ZERO HANDS INVOLVED</samp></sub></p>
@@ -372,13 +372,13 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 <!-- BLOG-POST-LIST:END -->
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      10 · FUN FACTS
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/sparkle.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/sparkle.svg" width="30" alt="">
 </div>
 <h2 align="center">FUN FACTS</h2>
 <p align="center"><sub><samp>THE README EQUIVALENT OF A BLOOPER REEL</samp></sub></p>
@@ -398,14 +398,14 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/animations/separator.svg" width="100%" height="18" alt="">
+<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
      11 · THE ARCADE — snake generated daily by .github/workflows/arcade.yml
      Images 404 until that workflow runs once. Actions tab → arcade → Run.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/icons/ghost.svg" width="30" alt="">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/ghost.svg" width="30" alt="">
 </div>
 <h2 align="center">THE ARCADE</h2>
 <p align="center"><sub><samp>MY CONTRIBUTIONS, PLAYED DAILY · INSERT COIN</samp></sub></p>
@@ -423,7 +423,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/main/assets/svg/footer.svg" width="100%" alt="Build things people actually use.">
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/footer.svg" width="100%" alt="Build things people actually use.">
 </div>
 
 <p align="center">

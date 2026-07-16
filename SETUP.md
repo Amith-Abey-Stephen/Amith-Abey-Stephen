@@ -16,10 +16,15 @@ A profile README only renders from a repo **named exactly like your username**.
 git init
 git add .
 git commit -m "feat: brutalist profile readme"
-git branch -M main
+git branch -M master
 git remote add origin git@github.com:Amith-Abey-Stephen/Amith-Abey-Stephen.git
-git push -u origin main
+git push -u origin master
 ```
+
+> ⚠️ This repo's default branch is **master** — the README raw URLs and
+> the workflow push-triggers all reference `master`. If you ever rename
+> the default branch, find-and-replace `master` in README.md and
+> `.github/workflows/*.yml` too.
 
 > Using a different username? Find-and-replace `Amith-Abey-Stephen` across
 > `README.md` and you're done — the workflows use `github.repository_owner`
