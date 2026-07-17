@@ -1,13 +1,12 @@
 # ═════════════════════════════════════════════════════════════════════
-# LATEST DROPS — auto-updating blog list via RSS
+# LATEST DROPS — blog posts rendered as image cards
 #
-# gautamkrishnar/blog-post-workflow rewrites the section of README.md
-# between the BLOG-POST-LIST markers with the newest posts from the
-# feeds below, and commits the change. No tokens needed — the default
-# GITHUB_TOKEN can write to this repo.
+# Fetches the author-filtered Ghost RSS feed, pulls each post's title,
+# link, date and feature image (<media:content>), renders a 3-card
+# table, and rewrites README.md between the BLOG-CARDS markers.
 #
-# ✏️  EDIT feed_list below to point at YOUR feeds (Dev.to, Hashnode,
-#     Medium, Ghost, YouTube — anything with RSS works).
+# Custom script instead of blog-post-workflow because that action can
+# only emit text lists — it can't extract feature images for cards.
 # ═════════════════════════════════════════════════════════════════════
 name: blog-posts
 
@@ -25,20 +24,65 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      # blog-post-workflow commits to README.md in the workspace —
-      # without a checkout there is no repo to commit to (git error 128)
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Pull latest posts into README
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          # Ghost serves a per-author feed natively — this one is filtered
-          # to Amith's posts. Add more feeds comma-separated if needed.
-          feed_list: "https://blog.inovuslabs.org/author/amith/rss/"
-          max_post_count: 5
-          # Brutalist list style: arrow, title, date — no fluff
-          template: "→ [$title]($url) — <sub>$date</sub>$newline$newline"
-          date_format: "mmm dd, yyyy"
-          commit_message: "chore: refresh latest drops [skip ci]"
-          readme_path: ./README.md
+      - name: Render latest drops as cards
+        shell: python
+        run: |
+          import html
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
+
+          FEED = "https://blog.inovuslabs.org/author/amith/rss/"
+          README = "README.md"
+          MAX_POSTS = 3
+          NS = {"media": "http://search.yahoo.com/mrss/"}
+
+          req = urllib.request.Request(FEED, headers={"User-Agent": "blog-cards-workflow"})
+          root = ET.fromstring(urllib.request.urlopen(req, timeout=30).read())
+
+          cells = []
+          for item in root.findall("./channel/item")[:MAX_POSTS]:
+              title = html.escape((item.findtext("title") or "").strip())
+              link = html.escape((item.findtext("link") or "").strip())
+              date = parsedate_to_datetime(item.findtext("pubDate")).strftime("%b %d, %Y").upper()
+              media = item.find("media:content", NS)
+              img = html.escape(media.get("url") or "") if media is not None else ""
+              pic = f'<a href="{link}"><img src="{img}" width="100%" alt=""></a><br><br>' if img else ""
+              cells.append(
+                  '<td width="33%" valign="top">'
+                  f'{pic}<b><a href="{link}">{title.upper()}</a></b>'
+                  f'<br><sub><samp>{date}</samp></sub></td>'
+              )
+
+          block = "<table><tr>\n" + "\n".join(cells) + "\n</tr></table>"
+
+          with open(README, encoding="utf-8") as f:
+              src = f.read()
+
+          new = re.sub(
+              r"(<!-- BLOG-CARDS:START -->).*?(<!-- BLOG-CARDS:END -->)",
+              lambda m: m.group(1) + "\n" + block + "\n" + m.group(2),
+              src,
+              flags=re.S,
+          )
+
+          with open(README, "w", encoding="utf-8") as f:
+              f.write(new)
+
+          print(f"Rendered {len(cells)} cards.")
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No new posts — nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: refresh latest drops [skip ci]"
+            git push
+          fi

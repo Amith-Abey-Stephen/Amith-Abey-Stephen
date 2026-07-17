@@ -2,7 +2,7 @@
 
 This repo is a complete GitHub profile README in a **neo-brutalist** theme:
 hand-written animated SVGs (hero, mission control, terminal, footer, icons),
-three GitHub Actions that keep it alive, and dark/light support everywhere.
+two GitHub Actions that keep it alive, and dark/light support everywhere.
 
 ---
 
@@ -32,51 +32,28 @@ git push -u origin master
 
 ## 2 · Enable and run the workflows once
 
-The arcade (snake) and metrics images live on generated branches
-(`output`, `metrics`) and will **404 until each workflow runs once**.
+The snake images live on the generated `output` branch and will
+**404 until the workflow runs once**.
 
 1. Repo → **Actions** tab → enable workflows if prompted.
 2. Run **arcade** → *Run workflow*. Creates the `output` branch.
-3. Run **metrics** → *Run workflow*. Creates the `metrics` branch
-   (needs the secret from step 3 first).
-4. Run **blog-posts** → *Run workflow*. Fills the LATEST DROPS section.
+3. Run **blog-posts** → *Run workflow*. Renders the LATEST DROPS cards.
 
-## 3 · Add the metrics token (one secret)
+No secrets required — both workflows run on the default `GITHUB_TOKEN`.
 
-`lowlighter/metrics` needs a read-only classic PAT:
+## 3 · The blog feed
 
-1. GitHub → Settings → Developer settings → Personal access tokens (classic).
-2. Generate with scopes: `public_repo`, `read:user`. No expiry drama: pick 1 year.
-3. Repo → Settings → Secrets and variables → Actions → **New repository secret**
-   - Name: `METRICS_TOKEN`
-   - Value: the token.
+The blog-posts workflow renders the **3 newest posts as image cards**
+(feature image + title + date) from your author-filtered Ghost feed —
+`https://blog.inovuslabs.org/author/amith/rss/`. To change the source or
+count, edit `FEED` / `MAX_POSTS` at the top of the script inside
+`.github/workflows/blog-posts.yml`.
 
-## 4 · Point the blog feed at yourself
+## 4 · Holopin board
 
-Already done: `feed_list` in `.github/workflows/blog-posts.yml` points at
-your **author-filtered** Ghost feed —
-`https://blog.inovuslabs.org/author/amith/rss/` — so only your posts show
-up, no Content API key required. Any other RSS (Dev.to, Hashnode, Medium,
-YouTube) can be added comma-separated.
-
-## 5 · Fix the project links
-
-The bento cards in `README.md` link to live inovuslabs.org URLs for
-SyncBatch / DocGen / InoMail and the `Project-Dora` repo. Tune the
-one-liners and progress bars any time — they're plain text.
-
-## 6 · Optional: Spotify "ON ROTATION" card
-
-1. Deploy [kittinan/spotify-github-profile](https://github.com/kittinan/spotify-github-profile)
-   to your own Vercel (one-click button in their README) and authorize Spotify.
-2. It gives you a personal card URL containing your `uid`.
-3. In `README.md`, uncomment the **ON ROTATION** block and replace
-   `YOUR_SPOTIFY_UID` / `YOUR_SPOTIFY_USERNAME`.
-
-## 7 · Optional: Holopin board
-
-Claim badges at [holopin.io](https://holopin.io), then in `README.md`
-uncomment the Holopin block and set your board URL (`holopin.me/<username>`).
+Already live in the ACHIEVEMENTS section via `holopin.me/amithabeystephen`.
+New badges you claim at [holopin.io](https://holopin.io) appear
+automatically — the board image is rendered fresh on every page load.
 
 ---
 
@@ -103,10 +80,10 @@ uncomment the Holopin block and set your board URL (`holopin.me/<username>`).
 | Stats + top languages | `anuraghazra/github-readme-stats` | 65k★, actively maintained |
 | Streak | `streak-stats.demolab.com` (DenverCoder1) | maintained (avoid the dead herokuapp URL) |
 | Activity graph | `ashutosh00710/github-readme-activity-graph` | maintained |
-| Full metrics | `lowlighter/metrics` (terminal template) | maintained |
 | Trophies | `ryo-ma/github-profile-trophy` | maintained |
+| Holopin board | `holopin.me` | maintained |
 | Snake | `Platane/snk` | maintained, v3 |
-| Blog RSS | `gautamkrishnar/blog-post-workflow` | stable, the standard |
+| Blog cards | custom Python in `blog-posts.yml` | ours — no dependency |
 | Badges | `shields.io` | evergreen |
 
 ## Repo map
@@ -116,8 +93,7 @@ README.md                     ← the landing page
 SETUP.md                      ← you are here
 .github/workflows/
   arcade.yml                  ← snake → `output` branch, daily
-  metrics.yml                 ← metrics terminal card → `metrics` branch
-  blog-posts.yml              ← RSS → README, every 6h
+  blog-posts.yml              ← RSS → image cards in README, every 6h
 assets/
   svg/
     hero-dark.svg             ← animated hero (marquee, typing, stickers)

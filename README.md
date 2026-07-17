@@ -8,10 +8,11 @@
                   #00F0FF (cyan) #FF4911 (orange) + pure black/white
        · Square corners only. If it looks comfortable, sharpen it.
        · Dark/light handled via <picture> + prefers-color-scheme.
-       · Generated art (snake) lives on the `output` branch,
-         metrics on the `metrics` branch — main stays clean.
-       · First push: images from those branches 404 until the
-         workflows run once. Run them from the Actions tab. See SETUP.md.
+       · Generated art (snake) lives on the `output` branch — master
+         stays clean. Blog cards are rendered into this file by the
+         blog-posts workflow.
+       · First push: snake images 404 until the arcade workflow runs
+         once. Run it from the Actions tab. See SETUP.md.
      ═══════════════════════════════════════════════════════════════════ -->
 
 <!-- ══ HERO ══ -->
@@ -28,8 +29,8 @@
   <samp>
     <a href="#mission-control">MISSION CONTROL</a> ▪
     <a href="#the-terminal">TERMINAL</a> ▪
-    <a href="#currently-building">BUILDS</a> ▪
     <a href="#github-dashboard">DASHBOARD</a> ▪
+    <a href="#latest-drops">DROPS</a> ▪
     <a href="#tech-stack">STACK</a> ▪
     <a href="#the-arcade">ARCADE</a>
   </samp>
@@ -97,56 +98,9 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     03 · CURRENTLY BUILDING — the bento grid
-     ═══════════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/bolt.svg" width="30" alt="">
-</div>
-<h2 align="center">CURRENTLY BUILDING</h2>
-<p align="center"><sub><samp>PRODUCTS FIRST · REPOS SECOND · EXCUSES NEVER</samp></sub></p>
-
-<table width="100%">
-  <!-- ── FLAGSHIP ── -->
-  <tr>
-    <td colspan="2" width="100%">
-      <h3>⌗ <a href="https://syncbatch.inovuslabs.org">SYNCBATCH</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/FLAGSHIP-FFDE00?style=flat-square" alt="flagship"> <img src="https://img.shields.io/badge/LIVE-ADFF2F?style=flat-square" alt="live"></h3>
-      <samp>Bulk product-data sync engine for commerce catalogs — messy CSVs and feeds in, clean storefront-ready catalogs out, zero drama in between.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓░░ 86%</code>&nbsp;&nbsp;<sub><samp>NODE.JS · POSTGRESQL · QUEUES · SHOPIFY</samp></sub>
-    </td>
-  </tr>
-  <!-- ── ROW 2 ── -->
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://docgen.inovuslabs.org">DOCGEN</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/PROTOTYPE-FFDE00?style=flat-square" alt="prototype"></h3>
-      <samp>Point it at a codebase, get docs that sound like a human wrote them. Runs on local LLMs.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓░░░░░░ 55%</code>&nbsp;&nbsp;<sub><samp>LOCAL LLMS · TYPESCRIPT · CLI</samp></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⌗ <a href="https://inomail.inovuslabs.org">INOMAIL</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/LIVE-FF90E8?style=flat-square" alt="live"></h3>
-      <samp>Campus mail automation built at Inovus Labs — templates, scheduling, zero copy-paste.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓▓▓ 100%</code>&nbsp;&nbsp;<sub><samp>PHP · MYSQL · SMTP</samp></sub>
-    </td>
-  </tr>
-  <!-- ── ROW 5 · wide ── -->
-  <tr>
-    <td colspan="2" width="100%">
-      <h3>⌗ <a href="https://github.com/Amith-Abey-Stephen/Project-Dora">IOT PROJECTS</a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/ALWAYS_ON-FF4911?style=flat-square" alt="always on"></h3>
-      <samp>ESP32 + Raspberry Pi builds. It started with <b>Project Dora</b> — an ultrasonic sensor that beamed distance readings from one ESP to another and onto the web — and it never really stopped.</samp>
-      <br><br>
-      <code>▓▓▓▓▓▓▓▓▓▓▓▓ ∞</code>&nbsp;&nbsp;<sub><samp>ESP32 · RASPBERRY PI · ARDUINO · SENSORS</samp></sub>
-    </td>
-  </tr>
-</table>
-
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     04 · GITHUB DASHBOARD
+     03 · GITHUB DASHBOARD
      Widgets: github-readme-stats · streak-stats.demolab.com ·
-     github-readme-activity-graph · lowlighter/metrics (terminal)
+     github-readme-activity-graph
      All themed to the brutalist palette, square corners forced.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
@@ -188,17 +142,10 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   </picture>
 </div>
 
-<br>
-
-<!-- Rendered by .github/workflows/metrics.yml (terminal template) → metrics branch -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/metrics/metrics.svg" width="96%" alt="Full metrics report (terminal style)">
-</div>
-
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     05 · ACHIEVEMENTS
+     04 · ACHIEVEMENTS
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/trophy.svg" width="30" alt="">
@@ -214,33 +161,19 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
   </picture>
 </div>
 
-<!-- Holopin badge board — claim badges at holopin.io, then set your
-     username below (holopin.me/<username>) and uncomment. -->
-<!--
+<br>
+
+<!-- Holopin badge board — live at holopin.me/amithabeystephen -->
 <div align="center">
   <a href="https://holopin.io/@amithabeystephen">
     <img src="https://holopin.me/amithabeystephen" width="80%" alt="Holopin badge board">
   </a>
 </div>
--->
-
-<div align="center">
-  <table>
-    <tr>
-      <td><samp>▪ HACKTOBERFEST — multi-year contributor</samp></td>
-      <td><samp>▪ µLEARN — open-source contributions</samp></td>
-    </tr>
-    <tr>
-      <td><samp>▪ INOVUS LABS — built &amp; shipped campus tools</samp></td>
-      <td><samp>▪ CERTIFICATIONS — see LinkedIn for the paper trail</samp></td>
-    </tr>
-  </table>
-</div>
 
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     06 · TECH STACK — consistent black badges, grouped, no icon soup
+     05 · TECH STACK — consistent black badges, grouped, no icon soup
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/layers.svg" width="30" alt="">
@@ -308,29 +241,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     07 · LEARNING QUEUE
-     ═══════════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/compass.svg" width="30" alt="">
-</div>
-<h2 align="center">LEARNING QUEUE</h2>
-<p align="center"><sub><samp>CURRENT ROADMAP · LOADED, NOT FINISHED</samp></sub></p>
-
-<div align="center">
-
-| TRACK | WHY | STATUS |
-| :-- | :-- | :-- |
-| **SHOPIFY APP DEVELOPMENT** | Building where the merchants already are | `▓▓▓▓▓▓▓░░░ 70%` |
-| **AGENTIC SYSTEMS** | Software that does the work, not just the chat | `▓▓▓▓▓▓░░░░ 60%` |
-| **PRODUCT ANALYTICS & GROWTH** | Knowing what users do, not what I hope they do | `▓▓▓▓░░░░░░ 40%` |
-| **CLOUD DEPLOYMENT & DEVOPS** | Ship it, scale it, sleep at night | `▓▓▓▓▓░░░░░ 50%` |
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     08 · OPEN SOURCE
+     06 · OPEN SOURCE
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/heart.svg" width="30" alt="">
@@ -351,31 +262,25 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     09 · LATEST DROPS — auto-updated by .github/workflows/blog-posts.yml
-     Do not edit between the markers; the bot owns that block.
+     07 · LATEST DROPS — cards auto-rendered by .github/workflows/blog-posts.yml
+     Do not edit between the BLOG-CARDS markers; the bot owns that block.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/rss.svg" width="30" alt="">
 </div>
 <h2 align="center">LATEST DROPS</h2>
-<p align="center"><sub><samp>AUTO-REFRESHED FROM RSS EVERY 6 HOURS · ZERO HANDS INVOLVED</samp></sub></p>
+<p align="center"><sub><samp>FRESH FROM THE BLOG · AUTO-REFRESHED EVERY 6 HOURS · ZERO HANDS INVOLVED</samp></sub></p>
 
-<!-- BLOG-POST-LIST:START -->→ [The Way We Discover Products is Changing](https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/) — <sub>Jul 11, 2026</sub>
-
-→ [How We Brought Automation Back to INOVUS — Building a Tony Stark Style Smart Room with ESP32 &amp; Alexa](https://blog.inovuslabs.org/inovus-automation/) — <sub>May 20, 2026</sub>
-
-→ [It Works on My Machine… But Not on Yours.” Isn’t Docker Supposed to Fix That?](https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/) — <sub>May 17, 2026</sub>
-
-→ [Finally, we’ve done it | Our own server](https://blog.inovuslabs.org/finally-weve-done-it-our-own-server/) — <sub>May 15, 2026</sub>
-
-→ [From Local Servers to Remote Access — Our Next Step](https://blog.inovuslabs.org/from-local-servers-to-remote-access-our-next-step/) — <sub>Apr 30, 2026</sub>
-
-<!-- BLOG-POST-LIST:END -->
+<div align="center">
+<!-- BLOG-CARDS:START -->
+<samp>CARDS APPEAR AFTER THE FIRST BLOG-POSTS WORKFLOW RUN.</samp>
+<!-- BLOG-CARDS:END -->
+</div>
 
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     10 · FUN FACTS
+     08 · FUN FACTS
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/sparkle.svg" width="30" alt="">
@@ -401,7 +306,7 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
 
 <!-- ═══════════════════════════════════════════════════════════════════
-     11 · THE ARCADE — snake generated daily by .github/workflows/arcade.yml
+     09 · THE ARCADE — snake generated daily by .github/workflows/arcade.yml
      Images 404 until that workflow runs once. Actions tab → arcade → Run.
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
