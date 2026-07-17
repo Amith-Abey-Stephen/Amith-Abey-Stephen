@@ -273,7 +273,11 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 <div align="center">
 <!-- BLOG-CARDS:START -->
-<samp>CARDS APPEAR AFTER THE FIRST BLOG-POSTS WORKFLOW RUN.</samp>
+<table><tr>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/07/ChatGPT-Image-Jul-11--2026--03_07_05-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/">THE WAY WE DISCOVER PRODUCTS IS CHANGING</a></b><br><sub><samp>JUL 11, 2026</samp></sub></td>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/inovus-automation/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/05/automation.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/inovus-automation/">HOW WE BROUGHT AUTOMATION BACK TO INOVUS — BUILDING A TONY STARK STYLE SMART ROOM WITH ESP32 &AMP; ALEXA</a></b><br><sub><samp>MAY 20, 2026</samp></sub></td>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/05/docker.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/">IT WORKS ON MY MACHINE… BUT NOT ON YOURS.” ISN’T DOCKER SUPPOSED TO FIX THAT?</a></b><br><sub><samp>MAY 17, 2026</samp></sub></td>
+</tr></table>
 <!-- BLOG-CARDS:END -->
 </div>
 
