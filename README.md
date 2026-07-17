@@ -45,20 +45,19 @@
 </p>
 
 <!-- ══ MANIFESTO ══ -->
+<!-- Rendered as <samp> + &nbsp; padding (every line is exactly 62 monospace
+     chars) so the box can actually be centered — fenced code blocks always
+     render full-width and hug the left edge. -->
 <div align="center">
-
-```text
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│   MORE THAN A PROGRAMMER.                                  │
-│   I DESIGN IT → BUILD IT → SHIP IT → FIX THE BUG I SHIPPED │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
-
+<samp>┌────────────────────────────────────────────────────────────┐<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+│&nbsp;&nbsp;&nbsp;MORE THAN A PROGRAMMER.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+│&nbsp;&nbsp;&nbsp;I DESIGN IT → BUILD IT → SHIP IT → FIX THE BUG I SHIPPED&nbsp;│<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+└────────────────────────────────────────────────────────────┘</samp>
+<br><br>
 <samp>Full-stack developer from Kerala building AI-powered commerce.<br>
-I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
-
+I like my software shipped, my servers free-tier, and my LEDs blinking.</samp>
 </div>
 
 <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="18" alt="">
@@ -111,9 +110,9 @@ I like my software shipped, my LLMs local, and my LEDs blinking.</samp>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&include_all_commits=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&include_all_commits=true&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&icon_color=FF4911&text_color=000000&ring_color=FF4911">
-    <img src="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&include_all_commits=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F" height="180" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&icon_color=FF4911&text_color=000000&ring_color=FF4911">
+    <img src="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F" height="180" alt="GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&background=00000000&border=FFFFFF&border_radius=0&ring=FFDE00&fire=FF4911&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFDE00&sideLabels=FFFFFF&dates=999999&stroke=FFFFFF">
