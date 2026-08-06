@@ -1,25 +1,17 @@
 <!--
   ═══════════════════════════════════════════════════════════════════
-  INTERACTIVE TERMINAL — NEO-BRUTALISM
-  Plays a full shell session on load. A terminal is black on every
-  theme, so one file serves dark AND light GitHub (hard shadow is
-  acid pink so it reads on both).
-
-  Timeline (~13s, one-shot, ends on a blinking prompt):
+  INTERACTIVE TERMINAL — AMITH ABEY STEPHEN
+  Clean, jargon-free terminal session readable by everyone.
+  Timeline (~12s, one-shot, ends on a blinking prompt):
     0.5s  $ whoami
-    2.6s  $ skills  (by category)
-    5.2s  $ projects  (featured)
-    7.8s  $ current_status
+    2.6s  $ skills
+    5.2s  $ projects
+    7.8s  $ status
    10.0s  $ contact
-   12.0s  $ ▊  (idle prompt, blinks forever)
-
-  Techniques:
-    · Commands "type" via clip-path inset() + steps() easing
-    · Outputs print via staggered opacity steps (animation-delay)
-    · No scripts, no external assets — safe for GitHub's camo proxy
+   12.0s  $ ▊
   ═══════════════════════════════════════════════════════════════════
 -->
-<svg width="874" height="656" viewBox="0 0 874 656" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal session: whoami, skills, projects, current status and contact for Amith Abey Stephen">
+<svg width="874" height="656" viewBox="0 0 874 656" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal session for Amith Abey Stephen">
   <title>AMITH@KERALA — ZSH</title>
 
   <style>
@@ -29,7 +21,7 @@
       fill: #ffffff;
       white-space: pre;
     }
-    .dim  { fill: #ffffff; opacity: 0.55; }
+    .dim  { fill: #ffffff; opacity: 0.6; }
     .key  { fill: #FFDE00; }
     .name { fill: #FF90E8; }
     .ok   { fill: #ADFF2F; }
@@ -45,62 +37,62 @@
       to   { clip-path: inset(-20% -2% -20% 0); }
     }
 
-    /* Printed output lines — hard steps, no fade */
+    /* Printed output lines */
     .out { opacity: 0; animation: print 0.15s steps(2, end) forwards; }
     @keyframes print { from { opacity: 0; } to { opacity: 1; } }
 
-    /* Idle prompt cursor — appears at 12s, blinks forever */
+    /* Idle prompt cursor */
     .cursor { opacity: 0; animation: blink 1s step-end 12s infinite; }
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
   </style>
 
   <!-- ══ Hard shadow + window ══ -->
-  <rect x="12" y="12" width="860" height="642" fill="#FF90E8"/>
-  <rect x="2" y="2" width="860" height="642" fill="#000000" stroke="#ffffff" stroke-width="3"/>
+  <rect x="12" y="12" width="860" height="642" fill="#6366F1"/>
+  <rect x="2" y="2" width="860" height="642" fill="#09090b" stroke="#3f3f46" stroke-width="2"/>
 
   <!-- ══ Title bar ══ -->
-  <rect x="2" y="2" width="860" height="46" fill="#000000" stroke="#ffffff" stroke-width="3"/>
-  <rect x="20" y="18" width="13" height="13" fill="#FF4911" stroke="#ffffff" stroke-width="1.5"/>
-  <rect x="43" y="18" width="13" height="13" fill="#FFDE00" stroke="#ffffff" stroke-width="1.5"/>
-  <rect x="66" y="18" width="13" height="13" fill="#ADFF2F" stroke="#ffffff" stroke-width="1.5"/>
-  <text x="432" y="31" text-anchor="middle" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#ffffff">AMITH@KERALA: ~/PROJECTS — ZSH</text>
+  <rect x="2" y="2" width="860" height="46" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+  <rect x="20" y="18" width="13" height="13" rx="6.5" fill="#EF4444"/>
+  <rect x="43" y="18" width="13" height="13" rx="6.5" fill="#F59E0B"/>
+  <rect x="66" y="18" width="13" height="13" rx="6.5" fill="#10B981"/>
+  <text x="432" y="31" text-anchor="middle" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#a1a1aa">AMITH@KERALA: ~/AMITH.SITE — ZSH</text>
 
   <!-- ══ $ whoami ══ -->
   <text x="30" y="84"  class="cmd" style="animation-delay:0.5s"><tspan class="ok">$ </tspan>whoami</text>
-  <text x="30" y="106" class="out" style="animation-delay:1.5s"><tspan fill="#FFDE00" font-weight="bold">AMITH ABEY STEPHEN</tspan><tspan class="dim"> — full-stack developer · product builder</tspan></text>
-  <text x="30" y="128" class="out dim" style="animation-delay:1.7s">kerala, india · shipping things on the internet &amp; occasionally soldering them</text>
+  <text x="30" y="106" class="out" style="animation-delay:1.5s"><tspan fill="#FFDE00" font-weight="bold">AMITH ABEY STEPHEN</tspan><tspan class="dim"> — Product Engineer &amp; Full-Stack Developer</tspan></text>
+  <text x="30" y="128" class="out dim" style="animation-delay:1.7s">Building web applications, Shopify apps, and self-hosted tools in Kerala, India.</text>
 
-  <!-- ══ $ skills (by category) ══ -->
-  <text x="30" y="160" class="cmd" style="animation-delay:2.6s"><tspan class="ok">$ </tspan>skills --by-category</text>
-  <text x="30" y="182" class="out" style="animation-delay:3.7s"><tspan class="key">FRONTEND  </tspan><tspan class="dim">→ </tspan>react · next.js · vue · typescript · tailwindcss</text>
-  <text x="30" y="204" class="out" style="animation-delay:3.9s"><tspan class="key">BACKEND   </tspan><tspan class="dim">→ </tspan>node.js · express · php</text>
-  <text x="30" y="226" class="out" style="animation-delay:4.1s"><tspan class="key">DATABASE  </tspan><tspan class="dim">→ </tspan>mongodb · postgresql · mysql · firebase</text>
-  <text x="30" y="248" class="out" style="animation-delay:4.3s"><tspan class="key">HARDWARE  </tspan><tspan class="dim">→ </tspan>arduino · esp32 · raspberry pi</text>
+  <!-- ══ $ skills ══ -->
+  <text x="30" y="160" class="cmd" style="animation-delay:2.6s"><tspan class="ok">$ </tspan>skills</text>
+  <text x="30" y="182" class="out" style="animation-delay:3.7s"><tspan class="key">WEB      </tspan><tspan class="dim">→ </tspan>Next.js · React · TypeScript · Node.js · TailwindCSS</text>
+  <text x="30" y="204" class="out" style="animation-delay:3.9s"><tspan class="key">APPS     </tspan><tspan class="dim">→ </tspan>Shopify Admin API · Shop Minis · Reddit Apps · Webhooks</text>
+  <text x="30" y="226" class="out" style="animation-delay:4.1s"><tspan class="key">DEVOPS   </tspan><tspan class="dim">→ </tspan>Docker · Linux · Redis · PostgreSQL · MongoDB</text>
+  <text x="30" y="248" class="out" style="animation-delay:4.3s"><tspan class="key">HARDWARE </tspan><tspan class="dim">→ </tspan>ESP32 · Arduino · Embedded C++</text>
 
-  <!-- ══ $ projects (featured) ══ -->
-  <text x="30" y="280" class="cmd" style="animation-delay:5.2s"><tspan class="ok">$ </tspan>projects --featured</text>
-  <text x="30" y="302" class="out" style="animation-delay:6.3s"><tspan class="dim">→ </tspan><tspan class="name">SYNCBATCH       </tspan><tspan class="dim">bulk product sync without the drama</tspan></text>
-  <text x="30" y="324" class="out" style="animation-delay:6.5s"><tspan class="dim">→ </tspan><tspan class="name">DOCGEN          </tspan><tspan class="dim">codebase in, human-sounding docs out</tspan></text>
-  <text x="30" y="346" class="out" style="animation-delay:6.7s"><tspan class="dim">→ </tspan><tspan class="name">INOMAIL         </tspan><tspan class="dim">campus mail automation, zero copy-paste</tspan></text>
-  <text x="30" y="368" class="out" style="animation-delay:6.9s"><tspan class="dim">→ </tspan><tspan class="name">PROJECT-DORA    </tspan><tspan class="dim">ultrasonic radar that streamed to the web</tspan></text>
+  <!-- ══ $ projects ══ -->
+  <text x="30" y="280" class="cmd" style="animation-delay:5.2s"><tspan class="ok">$ </tspan>projects</text>
+  <text x="30" y="302" class="out" style="animation-delay:6.3s"><tspan class="dim">→ </tspan><tspan class="name">SYNCBATCH   </tspan><tspan class="dim">Spreadsheet contact importer (Excel/CSV to Google Contacts &amp; vCard)</tspan></text>
+  <text x="30" y="324" class="out" style="animation-delay:6.5s"><tspan class="dim">→ </tspan><tspan class="name">INOMAIL     </tspan><tspan class="dim">High-deliverability bulk email platform with background queues</tspan></text>
+  <text x="30" y="346" class="out" style="animation-delay:6.7s"><tspan class="dim">→ </tspan><tspan class="name">MR DOCGEN   </tspan><tspan class="dim">AI-powered document &amp; technical report generator</tspan></text>
+  <text x="30" y="368" class="out" style="animation-delay:6.9s"><tspan class="dim">→ </tspan><tspan class="name">AIRLOO      </tspan><tspan class="dim">IoT smart sanitation monitor &amp; real-time telemetry dashboard</tspan></text>
 
-  <!-- ══ $ current_status ══ -->
-  <text x="30" y="400" class="cmd" style="animation-delay:7.8s"><tspan class="ok">$ </tspan>current_status</text>
-  <text x="30" y="422" class="out" style="animation-delay:8.8s"><tspan class="key">BUILDING  </tspan>syncbatch      <tspan fill="#FFDE00">██████████</tspan><tspan class="dim">▒▒ 86%</tspan></text>
-  <text x="30" y="444" class="out" style="animation-delay:9.0s"><tspan class="key">LEARNING  </tspan>rust · llm infrastructure · agents</text>
-  <text x="30" y="466" class="out" style="animation-delay:9.2s"><tspan class="key">MOOD      </tspan><tspan class="ok">CAFFEINATED &amp; SHIPPING</tspan></text>
+  <!-- ══ $ status ══ -->
+  <text x="30" y="400" class="cmd" style="animation-delay:7.8s"><tspan class="ok">$ </tspan>status</text>
+  <text x="30" y="422" class="out" style="animation-delay:8.8s"><tspan class="key">ROLE     </tspan>Junior Full-Stack Developer @ FinalApps</text>
+  <text x="30" y="444" class="out" style="animation-delay:9.0s"><tspan class="key">LEAD     </tspan>Frontend Tech Lead @ μLearn Foundation</text>
+  <text x="30" y="466" class="out" style="animation-delay:9.2s"><tspan class="key">FOCUS    </tspan><tspan class="ok">Shipping clean software &amp; building self-hosted tools</tspan></text>
 
   <!-- ══ $ contact ══ -->
   <text x="30" y="498" class="cmd" style="animation-delay:10.0s"><tspan class="ok">$ </tspan>contact</text>
-  <text x="30" y="520" class="out" style="animation-delay:10.9s"><tspan class="key">MAIL      </tspan><tspan class="cyan">amithabey13@gmail.com</tspan></text>
-  <text x="30" y="542" class="out" style="animation-delay:11.1s"><tspan class="key">GITHUB    </tspan><tspan class="cyan">github.com/Amith-Abey-Stephen</tspan></text>
-  <text x="30" y="564" class="out" style="animation-delay:11.3s"><tspan class="key">LINKEDIN  </tspan><tspan class="cyan">linkedin.com/in/amith-abey-stephen</tspan></text>
+  <text x="30" y="520" class="out" style="animation-delay:10.9s"><tspan class="key">WEBSITE  </tspan><tspan class="cyan">https://www.amith.site</tspan></text>
+  <text x="30" y="542" class="out" style="animation-delay:11.1s"><tspan class="key">RESUME   </tspan><tspan class="cyan">https://resume.amith.site</tspan></text>
+  <text x="30" y="564" class="out" style="animation-delay:11.3s"><tspan class="key">EMAIL    </tspan><tspan class="cyan">amithabey13@gmail.com</tspan></text>
 
   <!-- ══ Idle prompt ══ -->
   <text x="30" y="602" class="out" style="animation-delay:12.0s"><tspan class="ok">$ </tspan></text>
   <rect x="50" y="588" width="10" height="17" fill="#ADFF2F" class="cursor"/>
 
   <!-- ══ Footer strip inside window ══ -->
-  <rect x="2" y="622" width="860" height="22" fill="#FFDE00"/>
-  <text x="432" y="637" text-anchor="middle" font-size="10.5" font-weight="bold" letter-spacing="2" fill="#000000">TIP: THIS ENTIRE TERMINAL IS ONE HAND-WRITTEN SVG · NO JAVASCRIPT WAS HARMED</text>
+  <rect x="2" y="622" width="860" height="22" fill="#18181b"/>
+  <text x="432" y="637" text-anchor="middle" font-size="10.5" font-weight="bold" letter-spacing="2" fill="#71717a">AMITH ABEY STEPHEN · PRODUCT ENGINEER · KERALA, INDIA</text>
 </svg>
