@@ -8,11 +8,7 @@
                   #00F0FF (cyan) #FF4911 (orange) + pure black/white
        · Square corners only. If it looks comfortable, sharpen it.
        · Dark/light handled via <picture> + prefers-color-scheme.
-       · Generated art (snake) lives on the `output` branch — master
-         stays clean. Blog cards are rendered into this file by the
-         blog-posts workflow.
-       · First push: snake images 404 until the arcade workflow runs
-         once. Run it from the Actions tab. See SETUP.md.
+       · Blog cards are rendered into this file by the blog-posts workflow.
      ═══════════════════════════════════════════════════════════════════ -->
 
 <!-- ══ HERO ══ -->
@@ -31,8 +27,7 @@
     <a href="#the-terminal">TERMINAL</a> ▪
     <a href="#github-dashboard">DASHBOARD</a> ▪
     <a href="#tech-stack">STACK</a> ▪
-    <a href="#latest-drops">DROPS</a> ▪
-    <a href="#the-arcade">ARCADE</a>
+    <a href="#latest-drops">DROPS</a>
   </samp>
 </p>
 
@@ -57,7 +52,7 @@
     </tr>
   </table>
   <br>
-  <samp>Full-stack developer from Kerala building AI-powered commerce.<br>
+  <samp>Full-stack developer from Kerala building web products, developer tools & mobile apps.<br>
   I like my software shipped, my servers free-tier, and my LEDs blinking.</samp>
 </div>
 
@@ -77,41 +72,41 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 AI Commerce & Agentic Systems</h3>
-      <p><samp>Autonomous shopping agents and intelligent commerce workflows built for high performance & conversion.</samp></p>
+      <h3>📑 DocGen</h3>
+      <p><samp>High-performance AI report generator mapping structured inputs into formatted Markdown & professional PDF documents.</samp></p>
       <p>
-        <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-        <img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
-        <img src="https://img.shields.io/badge/GEMINI-000000?style=for-the-badge&logo=googlegemini&logoColor=8E75FF" alt="Gemini">
+        <img src="https://img.shields.io/badge/NEXT.JS_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+        <img src="https://img.shields.io/badge/GEMINI_AI-000000?style=for-the-badge&logo=googlegemini&logoColor=8E75FF" alt="Gemini AI">
+        <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ Smart Room Automation</h3>
-      <p><samp>ESP32 hardware integration with Alexa voice commands and cloud IoT telemetry. Tony Stark style smart room.</samp></p>
+      <h3>🔄 SyncBatch</h3>
+      <p><samp>Bulk contact sync & spreadsheet importer (.xlsx/CSV) pushing to Google Contacts via API or generating native vCards.</samp></p>
       <p>
-        <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=E7352C" alt="ESP32">
-        <img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++">
-        <img src="https://img.shields.io/badge/ALEXA-000000?style=for-the-badge&logo=amazonalexa&logoColor=00CAFF" alt="Alexa">
+        <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+        <img src="https://img.shields.io/badge/GOOGLE_API-000000?style=for-the-badge&logo=google&logoColor=4285F4" alt="Google API">
+        <img src="https://img.shields.io/badge/TAILWIND-000000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS">
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌐 µLearn Open Source</h3>
-      <p><samp>Core contributor to Kerala's open learning community. Building peer-to-peer education infrastructure.</samp></p>
+      <h3>✉️ InoMail</h3>
+      <p><samp>High-deliverability bulk email platform featuring BullMQ queue architecture, multi-tenant isolation, & AI assist.</samp></p>
       <p>
-        <img src="https://img.shields.io/badge/TYPESCRIPT-000000?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
-        <img src="https://img.shields.io/badge/REACT-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-        <img src="https://img.shields.io/badge/OPEN_SOURCE-000000?style=for-the-badge&logo=github&logoColor=white" alt="Open Source">
+        <img src="https://img.shields.io/badge/BULLMQ-000000?style=for-the-badge&logo=redis&logoColor=DC382D" alt="BullMQ">
+        <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+        <img src="https://img.shields.io/badge/MONGODB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB">
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📦 Microservices & Cloud Infra</h3>
-      <p><samp>Production-ready Dockerized services, resilient APIs, and automated CI/CD deployment pipelines.</samp></p>
+      <h3>🌿 Flow_Money</h3>
+      <p><samp>Android personal finance app built around calm discipline and daily budget limits ("Today's Remaining").</samp></p>
       <p>
-        <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
-        <img src="https://img.shields.io/badge/DOCKER-000000?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker">
-        <img src="https://img.shields.io/badge/POSTGRESQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/KOTLIN-000000?style=for-the-badge&logo=kotlin&logoColor=7F52FF" alt="Kotlin">
+        <img src="https://img.shields.io/badge/JETPACK_COMPOSE-000000?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Jetpack Compose">
+        <img src="https://img.shields.io/badge/ANDROID-000000?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Android">
       </p>
     </td>
   </tr>
@@ -139,7 +134,7 @@
 
 <!-- ═══════════════════════════════════════════════════════════════════
      03 · GITHUB DASHBOARD
-     Widgets: github-readme-stats · streak-stats.demolab.com
+     Widgets: github-readme-stats-fast.vercel.app · streak-stats.demolab.com
      ═══════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/chart.svg" width="30" alt="">
@@ -149,9 +144,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&icon_color=FF4911&text_color=000000&ring_color=FF4911">
-    <img src="https://github-readme-stats.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff&ring_color=ADFF2F" height="175" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&icon_color=FF4911&text_color=000000">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&icon_color=FF90E8&text_color=ffffff" height="175" alt="GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&background=00000000&border=FFFFFF&border_radius=0&ring=FFDE00&fire=FF4911&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFDE00&sideLabels=FFFFFF&dates=999999&stroke=FFFFFF">
@@ -164,9 +159,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&text_color=ffffff">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&text_color=000000">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&text_color=ffffff" width="380" alt="Top languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&text_color=ffffff">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=000000&border_radius=0&title_color=000000&text_color=000000">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&bg_color=00000000&border_color=ffffff&border_radius=0&title_color=FFDE00&text_color=ffffff" width="380" alt="Top languages">
   </picture>
 </div>
 
@@ -202,6 +197,7 @@
         <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
         <img src="https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
         <img src="https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python">
+        <img src="https://img.shields.io/badge/KOTLIN-000000?style=for-the-badge&logo=kotlin&logoColor=7F52FF" alt="Kotlin">
         <img src="https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP">
       </td>
     </tr>
@@ -210,6 +206,7 @@
       <td>
         <img src="https://img.shields.io/badge/MONGODB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB">
         <img src="https://img.shields.io/badge/POSTGRESQL-000000?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/REDIS-000000?style=for-the-badge&logo=redis&logoColor=DC382D" alt="Redis">
         <img src="https://img.shields.io/badge/FIREBASE-000000?style=for-the-badge&logo=firebase&logoColor=DD2C1F" alt="Firebase">
       </td>
     </tr>
@@ -250,58 +247,11 @@
 <div align="center">
 <!-- BLOG-CARDS:START -->
 <table><tr>
-<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/what-is-shopify/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/ChatGPT-Image-Aug-5--2026--02_09_13-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/what-is-shopify/">SO… WHAT ACTUALLY IS SHOPIFY? 🛍️</a></b><br><sub><samp>AUG 05, 2026</samp></sub></td>
-<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/ai-is-becoming-our-second-brain-but-dont-let-it-become-your-only-one/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/07/ChatGPT-Image-Jul-17--2026--11_27_05-AM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/ai-is-becoming-our-second-brain-but-dont-let-it-become-your-only-one/">AI IS BECOMING OUR SECOND BRAIN… BUT DON&#X27;T LET IT BECOME YOUR ONLY ONE.</a></b><br><sub><samp>JUL 17, 2026</samp></sub></td>
 <td width="33%" valign="top"><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/07/ChatGPT-Image-Jul-11--2026--03_07_05-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/">THE WAY WE DISCOVER PRODUCTS IS CHANGING</a></b><br><sub><samp>JUL 11, 2026</samp></sub></td>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/inovus-automation/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/05/automation.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/inovus-automation/">HOW WE BROUGHT AUTOMATION BACK TO INOVUS — BUILDING A TONY STARK STYLE SMART ROOM WITH ESP32 &AMP; ALEXA</a></b><br><sub><samp>MAY 20, 2026</samp></sub></td>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/05/docker.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/it-works-on-my-machine-but-not-on-yours-isnt-docker-supposed-to-fix-that/">IT WORKS ON MY MACHINE… BUT NOT ON YOURS.” ISN’T DOCKER SUPPOSED TO FIX THAT?</a></b><br><sub><samp>MAY 17, 2026</samp></sub></td>
 </tr></table>
 <!-- BLOG-CARDS:END -->
-</div>
-
-<br>
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="14" alt="">
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     06 · FUN FACTS & COMMUNITY
-     ═══════════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/sparkle.svg" width="30" alt="">
-</div>
-<h2 align="center">FUN FACTS & COMMUNITY</h2>
-<p align="center"><sub><samp>THE README EQUIVALENT OF A BLOOPER REEL</samp></sub></p>
-
-<div align="center">
-
-```text
-[1] My first "deployment" was an ultrasonic radar beaming distances
-    between two ESP boards. It worked. Nothing has felt as magical since.
-[2] Contributor to µLearn — Kerala's open learning community.
-[3] My laptop holds more side projects than finished projects —
-    but every single one taught me something.
-[4] Everything in this profile (SVGs, workflows) is MIT-licensed — fork it, remix it.
-```
-
-</div>
-
-<br>
-<img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/animations/separator.svg" width="100%" height="14" alt="">
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     07 · THE ARCADE — snake generated daily by .github/workflows/arcade.yml
-     Images 404 until that workflow runs once. Actions tab → arcade → Run.
-     ═══════════════════════════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/icons/ghost.svg" width="30" alt="">
-</div>
-<h2 align="center" id="the-arcade">THE ARCADE</h2>
-<p align="center"><sub><samp>MY CONTRIBUTIONS, PLAYED DAILY · INSERT COIN</samp></sub></p>
-
-<!-- The snake eats the contribution graph -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/github-snake.svg">
-    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/output/github-snake-dark.svg" width="96%" alt="Snake eating the contribution graph">
-  </picture>
 </div>
 
 <!-- ══ FOOTER ══ -->
