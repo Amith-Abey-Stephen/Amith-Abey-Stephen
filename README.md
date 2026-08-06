@@ -1,16 +1,25 @@
 <!-- ═══════════════════════════════════════════════════════════════════
      AMITH ABEY STEPHEN — PROFILE README
-     Theme: SLEEK & MODERN MINIMALIST
-     Clean typography, subtle dark/light contrast, premium cards, fast load.
+     Theme: SLEEK MODERN MINIMALIST WITH ANIMATED CODER & VIBRANT TELEMETRY
      ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
   <br>
-  <h1>Amith Abey Stephen</h1>
-  <p><b>Product Engineer • Full-Stack Developer • AI & Systems Builder</b></p>
-  <p><sub>Based in Kerala, India — Building web platforms, developer tools, AI agents, and mobile apps.</sub></p>
+  <!-- Animated Coder Banner -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="380" alt="Coding Developer Animation">
+  <br><br>
 
-  <p>
+  <h1>Hi there, I'm Amith Abey Stephen <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" alt="wave"></h1>
+
+  <!-- Dynamic Typing Subtitle -->
+  <p align="center">
+    <a href="https://readme-typing-svg.demolab.com">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=6366F1&center=true&vCenter=true&width=550&lines=Product+Engineer+%26+Full-Stack+Developer;Building+AI+Tools%2C+Commerce+%26+Apps;DevOps%2C+Self-Hosting+%26+IoT+Systems;Open+Source+Contributor+%40+%C2%B5Learn" alt="Typing SVG">
+    </a>
+  </p>
+
+  <!-- Capsule Contact Badges -->
+  <p align="center">
     <a href="mailto:amithabey13@gmail.com"><img src="https://img.shields.io/badge/Email-amithabey13%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
     <a href="https://www.linkedin.com/in/amith-abey-stephen"><img src="https://img.shields.io/badge/LinkedIn-Amith%20Abey%20Stephen-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     <a href="https://blog.inovuslabs.org/author/amith/"><img src="https://img.shields.io/badge/Blog-INOVUS%20Labs-10B981?style=flat-square&logo=rss&logoColor=white" alt="Blog"></a>
@@ -157,14 +166,14 @@
   <p><sub>Real-time contribution metrics and repository statistics</sub></p>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&theme=tokyonight">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&theme=dracula">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&theme=default">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&theme=tokyonight" height="175" alt="GitHub stats">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=Amith-Abey-Stephen&show_icons=true&theme=dracula" height="175" alt="GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&theme=tokyonight">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&theme=dracula">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&theme=default">
-    <img src="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&theme=tokyonight" height="175" alt="Contribution streak">
+    <img src="https://streak-stats.demolab.com?user=Amith-Abey-Stephen&theme=dracula" height="175" alt="Contribution streak">
   </picture>
 </div>
 
@@ -172,9 +181,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&theme=tokyonight">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&theme=dracula">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&theme=default">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&theme=tokyonight" width="380" alt="Top languages">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Amith-Abey-Stephen&layout=compact&langs_count=8&theme=dracula" width="380" alt="Top languages">
   </picture>
 </div>
 
