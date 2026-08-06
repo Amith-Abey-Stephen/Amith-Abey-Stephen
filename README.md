@@ -7,17 +7,12 @@
        · Palette: #FFDE00 (yellow) #FF90E8 (pink) #ADFF2F (lime)
                   #00F0FF (cyan) #FF4911 (orange) + pure black/white
        · Square corners only. If it looks comfortable, sharpen it.
-       · Dark/light handled via <picture> + prefers-color-scheme.
        · Blog cards are rendered into this file by the blog-posts workflow.
      ═══════════════════════════════════════════════════════════════════ -->
 
 <!-- ══ HERO ══ -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-light.svg">
-    <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-dark.svg" width="100%" alt="AMITH ABEY STEPHEN — Full-stack developer, product builder. Kerala, India.">
-  </picture>
+  <img src="https://raw.githubusercontent.com/Amith-Abey-Stephen/Amith-Abey-Stephen/master/assets/svg/hero-light.svg" width="100%" alt="AMITH ABEY STEPHEN — Full-stack developer, product builder. Kerala, India.">
 </div>
 
 <!-- ══ NAV ══ -->
