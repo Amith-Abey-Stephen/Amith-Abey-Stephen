@@ -6,10 +6,10 @@
 <div align="center">
   <br>
   <!-- Animated Coder Banner -->
+  <h1>Hi there, I'm Amith Abey Stephen <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" alt="Waving hand emoji"></h1>
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="380" alt="Amith Abey Stephen - Product Engineer & Full-Stack Developer">
   <br><br>
 
-  <h1>Hi there, I'm Amith Abey Stephen <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px" alt="Waving hand emoji"></h1>
 
   <!-- Dynamic Typing Subtitle -->
   <p align="center">
