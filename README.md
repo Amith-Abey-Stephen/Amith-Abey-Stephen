@@ -256,9 +256,9 @@
 <div align="center">
 <!-- BLOG-CARDS:START -->
 <table><tr>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/the-world-that-never-existed/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/ChatGPT-world.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/the-world-that-never-existed/">THE WORLD THAT NEVER EXISTED</a></b><br><sub><samp>AUG 08, 2026</samp></sub></td>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/bro-charger-undo/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/stranegrimg.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/bro-charger-undo/">BRO... CHARGER UNDO?</a></b><br><sub><samp>AUG 08, 2026</samp></sub></td>
 <td width="33%" valign="top"><a href="https://blog.inovuslabs.org/what-is-shopify/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/ChatGPT-Image-Aug-5--2026--02_09_13-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/what-is-shopify/">SO… WHAT ACTUALLY IS SHOPIFY? 🛍️</a></b><br><sub><samp>AUG 05, 2026</samp></sub></td>
-<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/ai-is-becoming-our-second-brain-but-dont-let-it-become-your-only-one/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/07/ChatGPT-Image-Jul-17--2026--11_27_05-AM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/ai-is-becoming-our-second-brain-but-dont-let-it-become-your-only-one/">AI IS BECOMING OUR SECOND BRAIN… BUT DON&#X27;T LET IT BECOME YOUR ONLY ONE.</a></b><br><sub><samp>JUL 17, 2026</samp></sub></td>
-<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/07/ChatGPT-Image-Jul-11--2026--03_07_05-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/the-way-we-discover-products-is-changing/">THE WAY WE DISCOVER PRODUCTS IS CHANGING</a></b><br><sub><samp>JUL 11, 2026</samp></sub></td>
 </tr></table>
 <!-- BLOG-CARDS:END -->
 </div>
