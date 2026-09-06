@@ -256,9 +256,9 @@
 <div align="center">
 <!-- BLOG-CARDS:START -->
 <table><tr>
+<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/testing-the-best-ai-model-for-ui-in-opencode-and-somehow-ending-up-exploring-astro/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/09/ChatGPT-Image-Sep-3--2026--10_00_51-AM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/testing-the-best-ai-model-for-ui-in-opencode-and-somehow-ending-up-exploring-astro/">TESTING THE BEST AI MODEL FOR UI IN OPENCODE - AND SOMEHOW ENDING UP EXPLORING ASTRO</a></b><br><sub><samp>SEP 06, 2026</samp></sub></td>
 <td width="33%" valign="top"><a href="https://blog.inovuslabs.org/the-world-that-never-existed/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/ChatGPT-world.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/the-world-that-never-existed/">THE WORLD THAT NEVER EXISTED</a></b><br><sub><samp>AUG 08, 2026</samp></sub></td>
 <td width="33%" valign="top"><a href="https://blog.inovuslabs.org/bro-charger-undo/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/stranegrimg.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/bro-charger-undo/">BRO... CHARGER UNDO?</a></b><br><sub><samp>AUG 08, 2026</samp></sub></td>
-<td width="33%" valign="top"><a href="https://blog.inovuslabs.org/what-is-shopify/"><img src="https://pub-5911fd2c1cb64c8bb9ae3e5ffbb142b8.r2.dev/2026/08/ChatGPT-Image-Aug-5--2026--02_09_13-PM.png" width="100%" alt=""></a><br><br><b><a href="https://blog.inovuslabs.org/what-is-shopify/">SO… WHAT ACTUALLY IS SHOPIFY? 🛍️</a></b><br><sub><samp>AUG 05, 2026</samp></sub></td>
 </tr></table>
 <!-- BLOG-CARDS:END -->
 </div>
